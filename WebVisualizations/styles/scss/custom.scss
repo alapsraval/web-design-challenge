@@ -1,0 +1,41 @@
+$primary: #0baca5;
+$light:   #dee2e6;
+
+$sizes: (
+    33: 33.33%
+);
+
+$spacer: 1rem;
+$spacers:  (
+    6: ($spacer * 4.5),
+    7: ($spacer * 6)
+);
+
+$headings-font-family:  'Roboto Slab', Times, serif;
+$headings-font-weight: 600;
+$link-color: #6c757d;
+
+$border-width : 1px;
+.border-top-5     { border-top: $border-width * 5 solid gray}
+
+@import "../../vendor/bootstrap-4.4.1/scss/bootstrap.scss";
+
+.navbar-toggler-icon {
+  background-image: $navbar-dark-toggler-icon-bg;
+}
+
+@include media-breakpoint-down(sm) {
+  .container {
+    max-width: 100%;
+  }
+
+  .dropdown-menu {
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+
+}
+
+.navbar-nav .dropdown.show{
+  background-color: $light;
+}
