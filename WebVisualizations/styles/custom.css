@@ -3,6 +3,10 @@
   border-top: 5px solid gray;
 }
 
+.border-2 {
+  border: 2px solid gray;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

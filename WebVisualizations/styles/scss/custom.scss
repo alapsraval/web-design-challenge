@@ -17,6 +17,7 @@ $link-color: #6c757d;
 
 $border-width : 1px;
 .border-top-5     { border-top: $border-width * 5 solid gray}
+.border-2     { border: $border-width * 2 solid gray}
 
 @import "../../vendor/bootstrap-4.4.1/scss/bootstrap.scss";
 
